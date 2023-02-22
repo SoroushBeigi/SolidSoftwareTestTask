@@ -52,6 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
       child: Scaffold(
         backgroundColor: backgroundColor[700],
         appBar: AppBar(
+          ///appBar has a darker shade
           backgroundColor: backgroundColor[900],
           title: const Text('Test Task'),
         ),
